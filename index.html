@@ -1,40 +1,266 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<img src="./assets/logo_horizontal.png" width="300" height="70" style="
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%) scale(0.8);
+	padding: 20px;
+	">
+	<div class="reveal">
+		<div class="slides">
+			<!-- slide 1 -->
+			<section>
+				<h3 style="text-transform: none;">What have I learned in Scrile</h3>
+				<p class="fragment ">
+					For a month
+				</p>
+			</section>
+			<!-- slide 2 -->
+			<section>
+				<section>
+					<h3 style="text-transform: none;"> Commercial Development </h3>
+					<aside class="notes">
+						И Как подходить к реализации поставленных задач
+					</aside>
+				</section>
+				<section>
+					<p class="fragment highlight-green">
+						Сделать то, что необходимо в рамках задачи.
+						И вынести на обсуждение возникшие идеи
+					</p>
+					<aside class="notes">Первое, что приходит в голову - все удалить, сделать по-своему, изменить уже написанное
+						под свои нужды
+					</aside>
+				</section>
+			</section>
+			<!-- slide 3 -->
+			<section>
+				<section>
+					<h3 style="text-transform: none;">Agile & Scrum
+					</h3>
+					<aside class="notes">Познакомился с методологией в разработке agile и (подходом)фреймворком scrum
+					</aside>
+				</section>
+				<section>
+					Работа по спринтам
+					<aside class="notes">
+						Понравилась работа по спринтам, есть маленькие задачи и эти задачи могут решаться параллельно. Все
+						происходит достаточно быстро и динамично
+					</aside>
+				</section>
+				<section>
+					Декомпозиция задач
+					<aside class="notes">
+						Разбиение задач на несколько маленьких, в обучении и работе я также использую такой подход, т.к. это
+						помогает более явно понять реализацию одной большой задачи путем разбиения ее на части, и приятно
+						использовать такой же подход в коммерческой разработке
+					</aside>
+				</section>
+				<section>
+					Обсуждение сложностей
+					<aside class="notes">
+						Любые идеи и предложения выносятся на обсуждение в команде и ты никогда не остаешься наедине со сложностями,
+						т.к. коллеги готовы услышать и помочь
+					</aside>
+				</section>
+				<section>
+					Возможность на ошибку с минимальными издержками по производительности
+					<aside class="notes">
+						Когда решаешь задачу и потом возникают технические сложности. Вы на обсуждении с командой понимаете, что
+						первоначальное решения было ошибочным и ее нужно решать по-другому.
+						Т.к. обсуждение с командой проводятся ежедневно, то таким образом эту ошибку можно обнаружить на ранних
+						стадиях.
+					</aside>
+				</section>
+			</section>
+			<!-- slide 4 -->
+			<section>
+				<section>
+					<h3 style="text-transform: none;">GIT and its importance
+					</h3>
+				</section>
+				<section>
+					<p>Разбиение коммитов на реформатинг и рефакторинг</p>
+					<span class="fragment fade-in my-green">
+						Позволяет грамотно проводить код ревью для другого разработчика
+					</span>
+					<aside class="notes">
+						Было важно понять, что (по слайду)
+						стадиях.
+					</aside>
+				</section>
+				<section>
+					<p>Правильные названия коммитов</p>
+					<span class="fragment fade-in my-green">
+						Работа может прекращаться и возобновляться через несколько недель, а задача меняться или дополняться, и
+						важно понимать в своей ветке, где и что было реализовано
+					</span>
+				</section>
+			</section>
+			<!-- slide 4 -->
+			<section>
+				<section>
+					<h3 style="text-transform: none;">Unite architecture, linting and code Style
+					</h3>
+				</section>
+				<section>
+					<p>Единообразие codestyle</p>
+					<span class="fragment fade-in my-green">
+						Отсутствие конфликтов при мердже из-за форматирования
+					</span>
+				</section>
+				<section>
+					<p>MVC architecture and its importance</p>
+					<span class="fragment fade-in my-green">
+						Позволяет понимать, где искать части кода, отвечающие за отображение, логику и данные
+					</span>
+				</section>
+			</section>
+			<!-- slide 5 -->
+			<section>
+				<section>
+					<h3 style="text-transform: none;">Legacy code with unknown tech stack
+					</h3>
+					<aside class="notes">
+						Познакомился с легаси кодом и неизвестными для меня технологиями типа JSP
+					</aside>
+				</section>
+				<section>
+					<p>Научился работать с большими файлами с 1500-2000 строк кода</p>
+					<aside class="notes">
+						Не боимся, смело читаем комментарии, стараемся разбить на более мелкие части, оставляем комментарии по
+						неявной логике для других, выносим вопрос по рефакторингу
+					</aside>
+				</section>
+				<section>
+					<p>JSP</p>
+					<p class="fragment my-green">SSR</p>
+					<aside class="notes">
+						Разобрался с технологией jsp и плюсами SSR
+					</aside>
+				</section>
+			</section>
+			<!-- slide 6 -->
+			<section>
+				<section>
+					<h3 style="text-transform: none;">Unix-like systems </h3>
+					<aside class="notes">
+						Даже поставил себе и девушке Linux на домашние ноутбуки
+					</aside>
+				</section>
+				<section>
+					<p>Уверенная работа с bash консолью </p>
+				</section>
+				<section>
+					<p>Понял прелесть кастомизации unix систем </p>
+				</section>
+				<section>
+					<p>Использование дополнительных модулей для консоли </p>
+				</section>
+				<section>
+					<p>Обработка логов и большого количества файлов с помощью find & grep </p>
+				</section>
+				<section>
+					<p>Создание sh скриптов</p>
+				</section>
+				<section>
+					<p>Уверенность в работе с файловой системой на Node.js</p>
+				</section>
+			</section>
+			<!-- slide 7 -->
+			<section>
+				<section>
+					<h3 style="text-transform: none;">Docker & Docker-compose </h3>
+				</section>
+				<section>
+					<p>Научился разворачивать приложения</p>
+				</section>
+				<section>
+					<p>Научился ЗАВОРАЧИВАТЬ приложения</p>
+				</section>
+				<section>
+					<p>Научился дебажить через консоль докера</p>
+				</section>
+				<section>
+					<p>Выполнение команд внутри контейнера</p>
+				</section>
+			</section>
+			<!-- slide 8 -->
+			<!-- <section>
+				<section>
+					<h3 style="text-transform: none;">Терпение и разворачивание WebVideo</h3>
+				</section>
+				<section>
+					<p>Читаем документацию</p>
+				</section>
+				<section>
+					<p>Пытаемся развернуть проект</p>
+				</section>
+				<section>
+					<p>Проект ломается</p>
+				</section>
+				<section>
+					<p>Гуглим</p>
+				</section>
+				<section>
+					<p>Снова читаем документацию</p>
+				</section>
+				<section>
+					<p>Все ломаем</p>
+				</section>
+				<section>
+					<p>Терпим</p>
+				</section>
+				<section>
+					<p>Читаем документацию</p>
+				</section>
+				<section>
+					<p>Разворачиваем!</p>
+				</section> -->
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+	<style>
+		.my-green {
+			color: #6abf69;
+		}
+
+		.my-red {
+			color: #c62828;
+		}
+	</style>
+</body>
+
 </html>
